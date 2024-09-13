@@ -53,6 +53,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     FrameworkOverlayCustom \
+    PermissionControllerOverlayGSans \
     SettingsOverlayCustom
 
 # TouchGesture
