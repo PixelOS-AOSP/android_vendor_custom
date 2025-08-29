@@ -45,22 +45,24 @@ except:
     device = product
 
 if not depsonly:
-    print("Device %s not found. Attempting to retrieve device repository from LineageOS Github (http://github.com/LineageOS)." % device)
+    print("Device %s not found. Attempting to retrieve device repository from PixelOS-Devices Github (http://github.com/PixelOS-Devices)." % device)
 
 repositories = []
 
 if not depsonly:
-    githubreq = urllib.request.Request("https://raw.githubusercontent.com/LineageOS/mirror/main/default.xml")
+    api_url = "https://api.github.com/orgs/PixelOS-Devices/repos?per_page=100"
     try:
-        result = ElementTree.fromstring(urllib.request.urlopen(githubreq, timeout=10).read().decode())
+        with urllib.request.urlopen(api_url, timeout=10) as response:
+            repos_json = json.loads(response.read().decode())
     except urllib.error.URLError:
-        print("Failed to fetch data from GitHub")
+        print("Failed to fetch data from GitHub API")
         sys.exit(1)
     except ValueError:
-        print("Failed to parse return data from GitHub")
+        print("Failed to parse return data from GitHub API")
         sys.exit(1)
-    for res in result.findall('.//project'):
-        repositories.append(res.attrib['name'][10:])
+    # Extract repository names
+    for repo in repos_json:
+        repositories.append(repo['name'])
 
 local_manifests = r'.repo/local_manifests'
 if not os.path.exists(local_manifests): os.makedirs(local_manifests)
@@ -102,9 +104,12 @@ def get_manifest_path():
 
 def get_default_revision():
     m = ElementTree.parse(get_manifest_path())
-    d = m.findall('default')[0]
-    r = d.get('revision')
-    return r.replace('refs/heads/', '').replace('refs/tags/', '')
+    for remote in m.findall('remote'):
+        if remote.get('name') == 'github':
+            r = remote.get('revision')
+            if r:
+                return r.replace('refs/heads/', '').replace('refs/tags/', '')
+    return None
 
 def get_from_manifest(devicename):
     for path in glob.glob(".repo/local_manifests/*.xml"):
@@ -172,13 +177,13 @@ def add_to_manifest(repositories):
         repo_revision = repository['branch']
         print('Checking if %s is fetched from %s' % (repo_target, repo_name))
         if is_in_manifest(repo_target):
-            print('LineageOS/%s already fetched to %s' % (repo_name, repo_target))
+            print('PixelOS-Devices/%s already fetched to %s' % (repo_name, repo_target))
             continue
 
         project = ElementTree.Element("project", attrib = {
             "path": repo_target,
             "remote": "github",
-            "name": "LineageOS/%s" % repo_name,
+            "name": "PixelOS-Devices/%s" % repo_name,
             "revision": repo_revision })
         if repo_remote := repository.get("remote", None):
             # aosp- remotes are only used for kernel prebuilts, thus they
@@ -203,7 +208,7 @@ def add_to_manifest(repositories):
 
 def fetch_dependencies(repo_path):
     print('Looking for dependencies in %s' % repo_path)
-    dependencies_path = repo_path + '/lineage.dependencies'
+    dependencies_path = repo_path + '/custom.dependencies'
     syncable_repos = []
     verify_repos = []
 
@@ -251,7 +256,7 @@ def get_default_or_fallback_revision(repo_name):
 
     try:
         stdout = subprocess.run(
-            ["git", "ls-remote", "-h", "https://:@github.com/LineageOS/" + repo_name],
+            ["git", "ls-remote", "-h", "https://:@github.com/PixelOS-Devices/" + repo_name],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
         ).stdout.decode()
@@ -311,4 +316,4 @@ else:
             print("Done")
             sys.exit()
 
-print("Repository for %s not found in the LineageOS Github repository list. If this is in error, you may need to manually add it to your local_manifests/roomservice.xml." % device)
+print("Repository for %s not found in the PixelOS-Devices Github repository list. If this is in error, you may need to manually add it to your local_manifests/roomservice.xml." % device)
