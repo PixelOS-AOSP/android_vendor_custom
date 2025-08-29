@@ -175,6 +175,7 @@ def add_to_manifest(repositories):
         repo_name = repository['repository']
         repo_target = repository['target_path']
         repo_revision = repository['branch']
+        repo_remote = repository.get('remote', 'github')
         print('Checking if %s is fetched from %s' % (repo_target, repo_name))
         if is_in_manifest(repo_target):
             print('PixelOS-Devices/%s already fetched to %s' % (repo_name, repo_target))
@@ -182,9 +183,10 @@ def add_to_manifest(repositories):
 
         project = ElementTree.Element("project", attrib = {
             "path": repo_target,
-            "remote": "github",
-            "name": "PixelOS-Devices/%s" % repo_name,
-            "revision": repo_revision })
+            "remote": repo_remote,
+            "name": "%s" % repo_name,
+            "revision": repo_revision,
+            "clone-depth": "1" })
         if repo_remote := repository.get("remote", None):
             # aosp- remotes are only used for kernel prebuilts, thus they
             # don't let you customize clone-depth/revision.
@@ -222,12 +224,7 @@ def fetch_dependencies(repo_path):
                 fetch_list.append(dependency)
                 syncable_repos.append(dependency['target_path'])
                 if 'branch' not in dependency:
-                    if dependency.get('remote', 'github') == 'github':
-                        dependency['branch'] = get_default_or_fallback_revision(dependency['repository'])
-                        if not dependency['branch']:
-                            sys.exit(1)
-                    else:
-                        dependency['branch'] = None
+                    dependency['branch'] = get_default_revision()
             verify_repos.append(dependency['target_path'])
 
             if not os.path.isdir(dependency['target_path']):
@@ -249,38 +246,6 @@ def fetch_dependencies(repo_path):
     for deprepo in verify_repos:
         fetch_dependencies(deprepo)
 
-def get_default_or_fallback_revision(repo_name):
-    default_revision = get_default_revision()
-    print("Default revision: %s" % default_revision)
-    print("Checking branch info")
-
-    try:
-        stdout = subprocess.run(
-            ["git", "ls-remote", "-h", "https://:@github.com/PixelOS-Devices/" + repo_name],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-        ).stdout.decode()
-        branches = [x.split("refs/heads/")[-1] for x in stdout.splitlines()]
-    except:
-        return ""
-
-    if default_revision in branches:
-        return default_revision
-
-    if os.getenv('ROOMSERVICE_BRANCHES'):
-        fallbacks = list(filter(bool, os.getenv('ROOMSERVICE_BRANCHES').split(' ')))
-        for fallback in fallbacks:
-            if fallback in branches:
-                print("Using fallback branch: %s" % fallback)
-                return fallback
-
-    print("Default revision %s not found in %s. Bailing." % (default_revision, repo_name))
-    print("Branches found:")
-    for branch in branches:
-        print(branch)
-    print("Use the ROOMSERVICE_BRANCHES environment variable to specify a list of fallback branches.")
-    return ""
-
 if depsonly:
     repo_path = get_from_manifest(device)
     if repo_path:
@@ -297,7 +262,7 @@ else:
             
             manufacturer = repo_name.replace("android_device_", "").replace("_" + device, "")
             repo_path = "device/%s/%s" % (manufacturer, device)
-            revision = get_default_or_fallback_revision(repo_name)
+            revision = get_default_revision()
             if revision == "":
                 # Some devices have the same codename but shipped a long time ago and may not have
                 # a current branch set up.
@@ -305,7 +270,7 @@ else:
                 # to check.
                 continue
 
-            device_repository = {'repository':repo_name,'target_path':repo_path,'branch':revision}
+            device_repository = {'repository':'PixelOS-Devices/' + repo_name,'target_path':repo_path,'branch':revision}
             add_to_manifest([device_repository])
 
             print("Syncing repository to retrieve project.")
