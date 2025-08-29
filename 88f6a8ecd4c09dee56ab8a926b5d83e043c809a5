@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2359911b_92da976f",
+        "filename": "build/tools/repopick.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-29T13:54:16Z",
+      "side": 1,
+      "message": "nit",
+      "revId": "88f6a8ecd4c09dee56ab8a926b5d83e043c809a5",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
