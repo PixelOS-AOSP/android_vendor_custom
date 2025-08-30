@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1544a07_71af74ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-30T08:08:46Z",
+      "side": 1,
+      "message": "Since we have the bootanimation in zip, we can probably just switch to soong_config_set() ?",
+      "revId": "3852256e0d67ebc5c35d2b325740ff59b823d131",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
