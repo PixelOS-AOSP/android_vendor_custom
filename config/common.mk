@@ -37,6 +37,11 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/custom/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
 
+# LMOFreeForm
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworkOverlayCustom \
