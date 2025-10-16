@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73dcab92_69d842f4",
+        "filename": "overlay/common/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1000034
+      },
+      "writtenOn": "2025-10-16T13:02:40Z",
+      "side": 1,
+      "message": "@info.hridayaprajapati@gmail.com seems like a mistake",
+      "range": {
+        "startLine": 209,
+        "startChar": 87,
+        "endLine": 209,
+        "endChar": 93
+      },
+      "revId": "8173c478922d02e50b6638596752f7e8b83953c9",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
