@@ -16,6 +16,23 @@
       "message": "Idk if it\u0027s alright to have but without this it errors:\n\nFAILED: //frameworks/base/native/android:libandroid header-abi-diff libandroid.so.apex.abidiff\nOutputs: out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm64_armv8-2a-dotprod_cortex-a55_shared/libandroid.so.apex.abidiff\nError: exited with code: 1\nCommand: (prebuilts/clang-tools/linux-x86/bin/header-abi-diff -target-version current -allow-unreferenced-changes -allow-unreferenced-elf-symbol-changes -lib libandroid -arch arm64 -o out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm64_armv8-2a-dotprod_cortex-a55_shared/libandroid.so.apex.abidiff -new out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm64_armv8-2a-dotprod_cortex-a55_shared/libandroid.so.apex.lsdump -old prebuilts/abi-dumps/platform/36/64/arm64/source-based/libandroid.so.lsdump)|| (echo \u0027error: Please update ABI references with: $ANDROID_BUILD_TOP/development/vndk/tools/header-checker/utils/create_reference_dumps.py --lib libandroid --lib-variant APEX --release bp2a\u0027 \u0026\u0026 (mkdir -p $DIST_DIR/abidiffs \u0026\u0026 cp out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm64_armv8-2a-dotprod_cortex-a55_shared/libandroid.so.apex.abidiff $DIST_DIR/abidiffs/) \u0026\u0026 exit 1)\nOutput:\n******************************************************\nerror: libandroid\u0027s ABI has INCOMPATIBLE CHANGES. Please check compatibility report at: out/soong/.intermediates/frameworks/base/native/android/libandroid/android_arm64_armv8-2a-dotprod_cortex-a55_shared/libandroid.so.apex.abidiff\n******************************************************\nerror: Please update ABI references with: $ANDROID_BUILD_TOP/development/vndk/tools/header-checker/utils/create_reference_dumps.py --lib libandroid --lib-variant APEX --release bp2a",
       "revId": "565400df95a95ff0edb5d5ab4d34b47e2bc9dd6c",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ffbb5bb_f2d5c009",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2025-10-18T08:44:16Z",
+      "side": 1,
+      "message": "Fix your env",
+      "revId": "565400df95a95ff0edb5d5ab4d34b47e2bc9dd6c",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
