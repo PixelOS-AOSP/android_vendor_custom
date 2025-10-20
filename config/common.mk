@@ -37,6 +37,8 @@ endif
 # but also allow explicit overriding for testing and development.
 SYSTEM_OPTIMIZE_JAVA ?= true
 SYSTEMUI_OPTIMIZE_JAVA ?= true
+# For full optimization rather than just shrinking
+FULL_SYSTEM_OPTIMIZE_JAVA ?= true
 
 # Lineage-specific file
 PRODUCT_COPY_FILES += \
