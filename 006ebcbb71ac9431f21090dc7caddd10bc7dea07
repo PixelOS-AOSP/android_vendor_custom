@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8305575f_6cbd628a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-10-20T10:48:54Z",
+      "side": 1,
+      "message": "https://github.com/yaap/vendor_yaap/commit/132c13db4fc6887b69f81f4f7ea247f6be1bdc1d",
+      "revId": "006ebcbb71ac9431f21090dc7caddd10bc7dea07",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
