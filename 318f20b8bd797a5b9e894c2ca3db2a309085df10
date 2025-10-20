@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa62f650_d4460bea",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-10-20T10:32:44Z",
+      "side": 1,
+      "message": "Intentional?",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 48
+      },
+      "revId": "318f20b8bd797a5b9e894c2ca3db2a309085df10",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
