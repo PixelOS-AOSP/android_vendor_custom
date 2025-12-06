@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a89ab80a_d4e6984b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-12-06T06:31:48Z",
+      "side": 1,
+      "message": "https://github.com/pixelos-aosp/android_frameworks_base/commit/ba1cf51a7e48af22f388f7570e8ced6260aad78c",
+      "revId": "d61efe32b696809b8529fd37e93907ad51612bcb",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
