@@ -16,6 +16,24 @@
       "message": "https://github.com/pixelos-aosp/android_frameworks_base/commit/ba1cf51a7e48af22f388f7570e8ced6260aad78c",
       "revId": "d61efe32b696809b8529fd37e93907ad51612bcb",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8ab7de3_cdb7788f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000036
+      },
+      "writtenOn": "2025-12-06T13:42:29Z",
+      "side": 1,
+      "message": "RIP IPS panels",
+      "parentUuid": "a89ab80a_d4e6984b",
+      "revId": "d61efe32b696809b8529fd37e93907ad51612bcb",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
