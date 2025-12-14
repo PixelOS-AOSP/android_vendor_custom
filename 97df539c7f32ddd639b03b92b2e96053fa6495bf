@@ -34,6 +34,23 @@
       "parentUuid": "3f488535_24fefd60",
       "revId": "97df539c7f32ddd639b03b92b2e96053fa6495bf",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a753673_18c4b63d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000053
+      },
+      "writtenOn": "2025-12-14T12:40:44Z",
+      "side": 1,
+      "message": "Would it be more feasible to move this to vendor/lineage, since the build seems to always stops at \u0027writing make module actions\u0027?\nbuild/make/core/base_rules.mk:512: error: overriding commands for target `out/target/product/panther/product/etc/res/images/charger/battery_fail.png\u0027, previously defined at out/soong/installs-custom_panther.mk:291492",
+      "revId": "97df539c7f32ddd639b03b92b2e96053fa6495bf",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
