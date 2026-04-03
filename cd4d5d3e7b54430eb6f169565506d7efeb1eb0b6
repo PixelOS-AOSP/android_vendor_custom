@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d45318a_78fe21ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2026-04-03T06:03:58Z",
+      "side": 1,
+      "message": "@thanhtrung08022010@gmail.com did you try it out? I don\u0027t have a SIM to test calls out",
+      "revId": "cd4d5d3e7b54430eb6f169565506d7efeb1eb0b6",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
