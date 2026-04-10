@@ -2,6 +2,7 @@
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Define tablet-specific variables
+TARGET_CALL_RECORDING_SUPPORTED := false
 TARGET_IS_TABLET := true
 WITH_GMS_COMMS_SUITE := false
 
