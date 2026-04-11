@@ -16,6 +16,23 @@
       "message": "yes",
       "revId": "4c599a8a52279da5fd60cb11e10f4f1e416ebf1a",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aaee51e4_64ff5e5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000034
+      },
+      "writtenOn": "2026-04-11T07:25:08Z",
+      "side": 1,
+      "message": "I don\u0027t think this is needed, but yeah if you don\u0027t want to copy the permission, then maybe this can be merged",
+      "revId": "4c599a8a52279da5fd60cb11e10f4f1e416ebf1a",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
