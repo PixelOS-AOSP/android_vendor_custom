@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e652b71a_f9398559",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-05-05T16:17:42Z",
+      "side": 1,
+      "message": "Amend with correct author\n\nhttps://review.lineageos.org/q/I1981c56fbc024f045ea78331c902acf4657e779b",
+      "revId": "f3d7edb9a8c13f805d1161ad295ee0df59dd73c4",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
