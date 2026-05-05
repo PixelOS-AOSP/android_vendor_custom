@@ -16,6 +16,24 @@
       "message": "Amend with correct author\n\nhttps://review.lineageos.org/q/I1981c56fbc024f045ea78331c902acf4657e779b",
       "revId": "f3d7edb9a8c13f805d1161ad295ee0df59dd73c4",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "243e70e5_4685e397",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2026-05-05T18:52:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e652b71a_f9398559",
+      "revId": "f3d7edb9a8c13f805d1161ad295ee0df59dd73c4",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
