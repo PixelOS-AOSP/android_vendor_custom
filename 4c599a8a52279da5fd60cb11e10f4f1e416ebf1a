@@ -84,6 +84,24 @@
       "message": "What\u0027s the point of this. Wifi only tablet won\u0027t get calls anyway",
       "revId": "4c599a8a52279da5fd60cb11e10f4f1e416ebf1a",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c0e06f6_816fe633",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000019
+      },
+      "writtenOn": "2026-05-08T11:44:37Z",
+      "side": 1,
+      "message": "And iirc dialer isn\u0027t even shipped on wifi only only contacts and messages are",
+      "parentUuid": "60b371b8_e36cf3de",
+      "revId": "4c599a8a52279da5fd60cb11e10f4f1e416ebf1a",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
