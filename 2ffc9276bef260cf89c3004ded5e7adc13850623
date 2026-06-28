@@ -51,6 +51,24 @@
       "message": "Tested briefly on ziyi / sm8450\n\nThe feature is present, but the overlay overlaps with the fingerprint icon / UDFPS area, so the current placement is not ideal.\n\nAlso, pressing the button does not trigger anything on my side. I suspect the overlay may be missing the required permissions or flags to receive input events. I should be able to provide logs and a more detailed comment tomorrow.\n\nhttps://drive.google.com/file/d/1qYVKhXWLSNVM0yUIIL66WmHXiR4CjDht/view?usp\u003ddrivesdk",
       "revId": "2ffc9276bef260cf89c3004ded5e7adc13850623",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6f3827e_869290f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000053
+      },
+      "writtenOn": "2026-06-28T06:20:35Z",
+      "side": 1,
+      "message": "Link is private.\nhttps://files.catbox.moe/9h8p2a.png",
+      "parentUuid": "c6ec8fda_b6b94a54",
+      "revId": "2ffc9276bef260cf89c3004ded5e7adc13850623",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
