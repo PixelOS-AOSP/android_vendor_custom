@@ -141,6 +141,24 @@
       "parentUuid": "d3877e51_0a0b748f",
       "revId": "2ffc9276bef260cf89c3004ded5e7adc13850623",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a31e5daf_ecac4477",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000053
+      },
+      "writtenOn": "2026-06-29T23:23:29Z",
+      "side": 1,
+      "message": "\u003e This does not work without unlocking the device.\n\nCare to elaborate?",
+      "parentUuid": "3e20c027_360daaa5",
+      "revId": "2ffc9276bef260cf89c3004ded5e7adc13850623",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
