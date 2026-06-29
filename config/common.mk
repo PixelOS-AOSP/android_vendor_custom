@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 # GMS
-include vendor/custom/config/pixel.mk
+# include vendor/custom/config/pixel.mk
 
 # EPPE
 ifneq ($(TARGET_DISABLE_EPPE),true)
