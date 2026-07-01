@@ -287,8 +287,15 @@ def main():
         action="store_true",
         help="force cherry pick even if change is closed",
     )
-    parser.add_argument(
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
         "-p", "--pull", action="store_true", help="execute pull instead of cherry-pick"
+    )
+    group.add_argument(
+        "-C",
+        "--checkout",
+        action="store_true",
+        help="execute checkout instead of cherry-pick",
     )
     parser.add_argument(
         "-P", "--path", metavar="", help="use the specified path for the change"
@@ -717,6 +724,21 @@ def apply_change(args, item):
 
     if args.pull:
         do_git_fetch_pull(args, item)
+    elif args.checkout:
+        # Perform the checkout
+        if args.quiet:
+            cmd_out = subprocess.DEVNULL
+        else:
+            cmd_out = None
+        result = subprocess.call(
+            ["git", "checkout", item["revision"]],
+            cwd=project_path,
+            stdout=cmd_out,
+            stderr=cmd_out,
+        )
+        if result != 0:
+            print("ERROR: git command failed")
+            sys.exit(result)
     else:
         # Perform the cherry-pick
         if args.quiet:
