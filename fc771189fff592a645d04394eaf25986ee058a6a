@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0f0ec42_7720f48e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-08-07T03:56:24Z",
+      "side": 1,
+      "message": "It\u0027s fine to enable it by default, but better have some information in the Quick Tap Screen saying that it\u0027s kindof experimental?",
+      "revId": "fc771189fff592a645d04394eaf25986ee058a6a",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
