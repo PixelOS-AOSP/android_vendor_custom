@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistent, seneste apps, standardapps</string>
+    <string name="display_dashboard_summary">Mørkt tema, skriftstørrelse, styring ved berøring</string>
+    <string name="display_settings">Skærm og styring ved berøring</string>
+    <string name="sound_dashboard_summary">Lydstyrke og haptisk teknologi</string>
+    <string name="wallpaper_dashboard_summary">Farver, ikontema, appgitter</string>
+</resources>

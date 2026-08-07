@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, mga kamakailang app, mga default na app</string>
+    <string name="display_dashboard_summary">Madilim na tema, laki ng font, touch</string>
+    <string name="display_settings">Display at touch</string>
+    <string name="sound_dashboard_summary">Volume at haptics</string>
+    <string name="wallpaper_dashboard_summary">Mga kulay, mga may temang icon, grid ng app</string>
+</resources>

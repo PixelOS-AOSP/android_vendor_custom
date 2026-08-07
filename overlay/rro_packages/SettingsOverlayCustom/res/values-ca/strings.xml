@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistent, aplicacions recents, aplicacions predeterminades</string>
+    <string name="display_dashboard_summary">Tema fosc, cos de font, configuració tàctil</string>
+    <string name="display_settings">Pantalla i configuració tàctil</string>
+    <string name="sound_dashboard_summary">Volum i tecnologia hàptica</string>
+    <string name="wallpaper_dashboard_summary">Colors, icones temàtiques, quadrícula d\'aplicacions</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, แอปล่าสุด, แอปเริ่มต้น</string>
+    <string name="display_dashboard_summary">ธีมมืด ขนาดแบบอักษร การแตะ</string>
+    <string name="display_settings">จอแสดงผลและการแตะ</string>
+    <string name="sound_dashboard_summary">ระดับเสียงและการโต้ตอบการสัมผัส</string>
+    <string name="wallpaper_dashboard_summary">สี ไอคอนตามธีม ตารางกริดสำหรับแอป</string>
+</resources>

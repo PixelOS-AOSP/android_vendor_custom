@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistent, oxirgi ilovalar, birlamchi ilovalar</string>
+    <string name="display_dashboard_summary">Tungi mavzu, shrift hajmi, sensor</string>
+    <string name="display_settings">Displey va sensor</string>
+    <string name="sound_dashboard_summary">Tovush balandligi va sezuvchanlik</string>
+    <string name="wallpaper_dashboard_summary">Ranglar, uslubiy belgilar, ilovalar jadvali</string>
+</resources>

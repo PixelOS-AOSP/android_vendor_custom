@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Segéd, legutóbbi alkalmazások, alapértelmezett alkalmazások</string>
+    <string name="display_dashboard_summary">Sötét téma, betűméret, érintés</string>
+    <string name="display_settings">Megjelenítés és érintés</string>
+    <string name="sound_dashboard_summary">Hangerő és rezgő visszajelzések</string>
+    <string name="wallpaper_dashboard_summary">Színek, tematikus ikonok, alkalmazásrács</string>
+</resources>

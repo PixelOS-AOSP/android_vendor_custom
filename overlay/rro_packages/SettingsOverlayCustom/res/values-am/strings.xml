@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">ረዳት፣ የቅርብ ጊዜ መተግበሪያዎች፣ ነባሪ መተግበሪያዎች</string>
+    <string name="display_dashboard_summary">ጠቆር ያለ ገጽታ፣ የቅርጸ-ቁምፊ መጠን፣ ንክኪ</string>
+    <string name="display_settings">ማሳያ እና ንክኪ</string>
+    <string name="sound_dashboard_summary">ድምፅ እና ረቂቅ ንዝረት</string>
+    <string name="wallpaper_dashboard_summary">ቀለሞች፣ ገጽታ ያላቸው አዶዎች፣ የመተግበሪያ ፍርግርግ</string>
+</resources>

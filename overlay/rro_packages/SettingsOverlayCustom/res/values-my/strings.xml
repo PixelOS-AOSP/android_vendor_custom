@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant၊ မကြာသေးမီက အက်ပ်များ၊ မူရင်း အက်ပ်များ</string>
+    <string name="display_dashboard_summary">အမှောင်နောက်ခံ၊ ဖောင့်အရွယ်အစား၊ တို့ထိခြင်း</string>
+    <string name="display_settings">ဖန်သားပြင်၊ တို့ထိခြင်း</string>
+    <string name="sound_dashboard_summary">အသံအတိုးအကျယ်၊ ထိတွေ့တုံ့ပြန်မှု</string>
+    <string name="wallpaper_dashboard_summary">အရောင်များ၊ အပြင်အဆင်သုံး သင်္ကေတများ၊ အက်ပ်ဇယား</string>
+</resources>

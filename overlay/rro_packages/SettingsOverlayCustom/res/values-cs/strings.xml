@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Asistent, nedávné aplikace, výchozí aplikace</string>
+    <string name="display_dashboard_summary">Tmavý motiv, velikost písma, dotykové ovládání</string>
+    <string name="display_settings">Displej a dotykové ovládání</string>
+    <string name="sound_dashboard_summary">Hlasitost a hmatová odezva</string>
+    <string name="wallpaper_dashboard_summary">Barvy, tematické ikony, mřížka aplikací</string>
+</resources>

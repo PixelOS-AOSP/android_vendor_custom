@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistent, ən son istifadə edilən tətbiqlər, defolt tətbiqlər</string>
+    <string name="display_dashboard_summary">Tünd tema, şrift ölçüsü, toxunuş</string>
+    <string name="display_settings">Displey və toxunuş</string>
+    <string name="sound_dashboard_summary">Səs və taktil funksiyalar</string>
+    <string name="wallpaper_dashboard_summary">Rənglər, temalı ikonalar, tətbiq toru</string>
+</resources>

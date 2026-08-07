@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Google 助理、最近使用的應用程式、預設應用程式</string>
+    <string name="display_dashboard_summary">深色主題、字型大小、觸控</string>
+    <string name="display_settings">顯示及觸控</string>
+    <string name="sound_dashboard_summary">音量和觸感反應</string>
+    <string name="wallpaper_dashboard_summary">顏色、主題圖示、應用程式網格</string>
+</resources>

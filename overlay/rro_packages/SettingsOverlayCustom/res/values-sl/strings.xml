@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Pomočnik, nedavne aplikacije, privzete aplikacije</string>
+    <string name="display_dashboard_summary">Temna tema, velikost pisave, dotik</string>
+    <string name="display_settings">Zaslon in dotik</string>
+    <string name="sound_dashboard_summary">Glasnost in tipni odziv</string>
+    <string name="wallpaper_dashboard_summary">Barve, ikone s temo, mreža aplikacij</string>
+</resources>

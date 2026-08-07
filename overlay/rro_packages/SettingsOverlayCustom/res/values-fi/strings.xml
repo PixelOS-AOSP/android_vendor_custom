@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, viimeaikaiset sovellukset, oletussovellukset</string>
+    <string name="display_dashboard_summary">Tumma teema, fonttikoko, kosketus</string>
+    <string name="display_settings">Näyttö ja kosketus</string>
+    <string name="sound_dashboard_summary">Äänenvoimakkuus ja haptinen teknologia</string>
+    <string name="wallpaper_dashboard_summary">Värit, teemaan sopivat kuvakkeet, sovellusruudukko</string>
+</resources>

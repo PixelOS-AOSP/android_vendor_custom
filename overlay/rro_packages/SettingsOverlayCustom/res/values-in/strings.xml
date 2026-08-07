@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Asisten, aplikasi terbaru, aplikasi default</string>
+    <string name="display_dashboard_summary">Tema gelap, ukuran font, sentuhan</string>
+    <string name="display_settings">Layar &amp; sentuhan</string>
+    <string name="sound_dashboard_summary">Volume dan haptik</string>
+    <string name="wallpaper_dashboard_summary">Warna, ikon bertema, petak aplikasi</string>
+</resources>

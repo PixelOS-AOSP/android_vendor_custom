@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Помошник, неодамнешни апликации, стандардни апликации</string>
+    <string name="display_dashboard_summary">Темна тема, големина на фонт, допир</string>
+    <string name="display_settings">Екран и допир</string>
+    <string name="sound_dashboard_summary">Јачина на звук и хаптика</string>
+    <string name="wallpaper_dashboard_summary">Бои, тематски икони, мрежа со апликации</string>
+</resources>

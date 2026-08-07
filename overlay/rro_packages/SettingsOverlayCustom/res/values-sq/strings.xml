@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Asistenti, aplikacionet e fundit, aplikacionet e parazgjedhura</string>
+    <string name="display_dashboard_summary">Tema e errët, madhësia e fontit, prekja</string>
+    <string name="display_settings">Ekrani dhe prekja</string>
+    <string name="sound_dashboard_summary">Volumi dhe prekja</string>
+    <string name="wallpaper_dashboard_summary">Ngjyrat, ikonat tematike, rrjeta e aplikacioneve</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Жардамчы, акыркы колдонмолор, демейки колдонмолор</string>
+    <string name="display_dashboard_summary">Караңгы тема, арип өлчөмү, тийүү</string>
+    <string name="display_settings">Экран жана тийүү</string>
+    <string name="sound_dashboard_summary">Үн деңгээли жана сенсорлор</string>
+    <string name="wallpaper_dashboard_summary">Түстөр, тематикалык сүрөтчөлөр, колдонмолор торчосу</string>
+</resources>

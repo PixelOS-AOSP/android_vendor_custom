@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Trợ lý, ứng dụng gần đây, ứng dụng mặc định</string>
+    <string name="display_dashboard_summary">Giao diện tối, cỡ chữ, thao tác chạm</string>
+    <string name="display_settings">Màn hình và thao tác chạm</string>
+    <string name="sound_dashboard_summary">Âm lượng và xúc giác</string>
+    <string name="wallpaper_dashboard_summary">Màu sắc, biểu tượng theo chủ đề, lưới ứng dụng</string>
+</resources>

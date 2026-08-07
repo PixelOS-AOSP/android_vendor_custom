@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Ассистент, недавние приложения, приложения по умолчанию</string>
+    <string name="display_dashboard_summary">Тёмная тема, размер шрифта, сенсорное управление</string>
+    <string name="display_settings">Экран и сенсорное управление</string>
+    <string name="sound_dashboard_summary">Громкость и тактильная обратная связь</string>
+    <string name="wallpaper_dashboard_summary">Цвета, тематические значки, сетка приложений</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Asistent, aplicații recente, aplicații prestabilite</string>
+    <string name="display_dashboard_summary">Tema întunecată, dimensiunea fontului, comenzile tactile</string>
+    <string name="display_settings">Afișare și atingere</string>
+    <string name="sound_dashboard_summary">Volum și feedback tactil</string>
+    <string name="wallpaper_dashboard_summary">Culori, pictograme tematice, grilă de aplicații</string>
+</resources>

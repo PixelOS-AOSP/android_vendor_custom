@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">සහකරු, මෑත යෙදුම්, පෙරනිමි යෙදුම්</string>
+    <string name="display_dashboard_summary">අඳුරු තේමාව, අකුරු තරම, ස්පර්ශය</string>
+    <string name="display_settings">සංදර්ශකය සහ ස්පර්ශය</string>
+    <string name="sound_dashboard_summary">හඬ පරිමාව සහ ස්පර්ශ</string>
+    <string name="wallpaper_dashboard_summary">වර්ණ, තේමා නිරූපක, යෙදුම් ජාලකය</string>
+</resources>

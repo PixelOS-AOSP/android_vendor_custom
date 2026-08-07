@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, ఇటీవలి యాప్‌లు, ఆటోమేటిక్‌ యాప్‌లు</string>
+    <string name="display_dashboard_summary">డార్క్ థీమ్, ఫాంట్ సైజ్, టచ్</string>
+    <string name="display_settings">డిస్‌ప్లే &amp; టచ్</string>
+    <string name="sound_dashboard_summary">వాల్యూమ్ &amp; స్పర్శ ప్రతిస్పందన టెక్నాలజీ (హ్యాప్టిక్స్)</string>
+    <string name="wallpaper_dashboard_summary">కలర్స్, థీమ్‌కు తగిన చిహ్నాలు, యాప్ గ్రిడ్</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">アシスタント、最近使ったアプリ、デフォルトのアプリ</string>
+    <string name="display_dashboard_summary">ダークモード、フォントサイズ、タップ</string>
+    <string name="display_settings">ディスプレイとタップ</string>
+    <string name="sound_dashboard_summary">音量とハプティクス</string>
+    <string name="wallpaper_dashboard_summary">色、テーマアイコン、アプリグリッド</string>
+</resources>

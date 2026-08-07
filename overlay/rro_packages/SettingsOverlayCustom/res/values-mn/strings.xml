@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Туслах, саяхны аппууд, өгөгдмөл аппууд</string>
+    <string name="display_dashboard_summary">Бараан загвар, фонтын хэмжээ, хүрэлт</string>
+    <string name="display_settings">Дэлгэц, мэдрэгч</string>
+    <string name="sound_dashboard_summary">Дууны түвшин, хүртэхүй</string>
+    <string name="wallpaper_dashboard_summary">Өнгө, загварын дүрс тэмдэг, аппын хүснэгт</string>
+</resources>

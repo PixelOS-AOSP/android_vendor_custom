@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Asistente, aplicacións recentes, aplicacións predeterminadas</string>
+    <string name="display_dashboard_summary">Tema escuro, tamaño de letra, toque</string>
+    <string name="display_settings">Mostrar e tocar</string>
+    <string name="sound_dashboard_summary">Volume e tecnoloxía háptica</string>
+    <string name="wallpaper_dashboard_summary">Cores, temas das iconas, grade de aplicacións</string>
+</resources>

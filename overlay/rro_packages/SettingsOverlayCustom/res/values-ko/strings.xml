@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">어시스턴트, 최근 앱, 기본 앱</string>
+    <string name="display_dashboard_summary">어두운 테마, 글꼴 크기, 터치</string>
+    <string name="display_settings">디스플레이 및 터치</string>
+    <string name="sound_dashboard_summary">볼륨 및 햅틱</string>
+    <string name="wallpaper_dashboard_summary">색상, 테마 아이콘, 앱 그리드</string>
+</resources>

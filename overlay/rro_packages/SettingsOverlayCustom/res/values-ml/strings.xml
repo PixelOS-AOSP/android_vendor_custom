@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, സമീപകാലത്തുള്ള ആപ്പുകൾ, ഡിഫോൾട്ട് ആപ്പുകൾ</string>
+    <string name="display_dashboard_summary">ഡാർക്ക് തീം, ഫോണ്ട് വലുപ്പം, ടച്ച്</string>
+    <string name="display_settings">ഡിസ്പ്ലേയും ടച്ചും</string>
+    <string name="sound_dashboard_summary">ശബ്ദവും ഹാപ്‌റ്റിക്‌സും</string>
+    <string name="wallpaper_dashboard_summary">നിറങ്ങൾ, തീമുള്ള ഐക്കണുകൾ, ആപ്പ് ഗ്രിഡ്</string>
+</resources>

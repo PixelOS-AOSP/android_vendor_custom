@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">‏\"مساعد Google\" والتطبيقات المُستخدمة مؤخرًا والتطبيقات التلقائية</string>
+    <string name="display_dashboard_summary">المظهر الداكن وحجم الخط وإعدادات اللمس</string>
+    <string name="display_settings">الشاشة واللمس</string>
+    <string name="sound_dashboard_summary">مستوى الصوت وتقنية اللمس</string>
+    <string name="wallpaper_dashboard_summary">الألوان، والرموز المستوحاة من موضوع معيّن، وشبكة التطبيقات</string>
+</resources>

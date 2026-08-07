@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, சமீபத்திய ஆப்ஸ், இயல்பான ஆப்ஸ்</string>
+    <string name="display_dashboard_summary">டார்க் தீம், எழுத்து அளவு, தொடுதல்</string>
+    <string name="display_settings">டிஸ்ப்ளே &amp; தொடுதல்</string>
+    <string name="sound_dashboard_summary">ஒலியளவு மற்றும் ஹாப்டிக்ஸ்</string>
+    <string name="wallpaper_dashboard_summary">வண்ணங்கள், தீம் ஐகான்கள், ஆப்ஸ் கட்டக் காட்சி</string>
+</resources>

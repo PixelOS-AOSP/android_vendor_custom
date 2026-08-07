@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">دستیار، برنامه‌های اخیر، برنامه‌های پیش‌فرض</string>
+    <string name="display_dashboard_summary">زمینه تیره، اندازه قلم، لمس</string>
+    <string name="display_settings">نمایشگر و لمس</string>
+    <string name="sound_dashboard_summary">میزان صدا و فناوری لمسی</string>
+    <string name="wallpaper_dashboard_summary">رنگ‌ها، نمادهای موضوعی، شبکه برنامه‌ها</string>
+</resources>

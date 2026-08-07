@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Kiratibu, programu za hivi majuzi, programu chaguomsingi</string>
+    <string name="display_dashboard_summary">Mandhari meusi, ukubwa wa fonti, mguso</string>
+    <string name="display_settings">Skrini na mguso</string>
+    <string name="sound_dashboard_summary">Kiwango cha sauti na miguso</string>
+    <string name="wallpaper_dashboard_summary">Rangi, aikoni zenye mitindo, gridi ya programu</string>
+</resources>

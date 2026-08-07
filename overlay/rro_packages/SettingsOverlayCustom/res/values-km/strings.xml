@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">ជំនួយការ កម្មវិធី​ថ្មីៗ កម្មវិធី​លំនាំដើម</string>
+    <string name="display_dashboard_summary">ទម្រង់រចនាងងឹត ទំហំ​ពុម្ពអក្សរ ការចុច</string>
+    <string name="display_settings">ការបង្ហាញ និងការចុច</string>
+    <string name="sound_dashboard_summary">កម្រិត​សំឡេង និង​ប្រតិកម្មប៉ះ</string>
+    <string name="wallpaper_dashboard_summary">ពណ៌ រូបតំណាងប្ដូរតាមទម្រង់រចនា ក្រឡាកម្មវិធី</string>
+</resources>

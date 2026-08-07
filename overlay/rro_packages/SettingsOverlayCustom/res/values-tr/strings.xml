@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Asistan, son uygulamalar, varsayılan uygulamalar</string>
+    <string name="display_dashboard_summary">Koyu tema, yazı tipi boyutu, dokunma</string>
+    <string name="display_settings">Ekran ve dokunma</string>
+    <string name="sound_dashboard_summary">Ses ve dokunma teknolojisi</string>
+    <string name="wallpaper_dashboard_summary">Renkler, temalı simgeler, uygulama tablosu</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Памочнік, нядаўнія праграмы, стандартныя праграмы</string>
+    <string name="display_dashboard_summary">Цёмная тэма, памер шрыфту, сэнсарны ўвод</string>
+    <string name="display_settings">Дысплэй і сэнсарны ўвод</string>
+    <string name="sound_dashboard_summary">Гучнасць і тактыльны водгук</string>
+    <string name="wallpaper_dashboard_summary">Колеры, тэматычныя значкі, сетка праграм</string>
+</resources>

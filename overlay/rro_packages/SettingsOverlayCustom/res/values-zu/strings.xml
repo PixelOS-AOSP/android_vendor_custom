@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Umsizi, ama-app akamuva, ama-app azenzekelayo</string>
+    <string name="display_dashboard_summary">Itimu emnyama, usayizi wefonti, thinta</string>
+    <string name="display_settings">Bonisa futhi uthinte</string>
+    <string name="sound_dashboard_summary">Ivolumu namahaptic</string>
+    <string name="wallpaper_dashboard_summary">Imibala, izithonjana ezinetimu, igridi ye-app</string>
+</resources>

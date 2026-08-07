@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, ਹਾਲੀਆ ਐਪਾਂ, ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਐਪਾਂ</string>
+    <string name="display_dashboard_summary">ਗੂੜ੍ਹਾ ਥੀਮ, ਫੌਂਟ ਸਾਈਜ਼, ਟੱਚ</string>
+    <string name="display_settings">ਡਿਸਪਲੇ ਅਤੇ ਟੱਚ</string>
+    <string name="sound_dashboard_summary">ਅਵਾਜ਼ ਅਤੇ ਹੈਪਟਿਕਸ</string>
+    <string name="wallpaper_dashboard_summary">ਰੰਗ, ਥੀਮ ਵਾਲੇ ਪ੍ਰਤੀਕ, ਐਪ ਗਰਿੱਡ</string>
+</resources>

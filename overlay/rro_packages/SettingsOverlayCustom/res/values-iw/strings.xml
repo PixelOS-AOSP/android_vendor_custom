@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">‏Assistant, אפליקציות אחרונות, אפליקציות ברירת מחדל</string>
+    <string name="display_dashboard_summary">עיצוב כהה, גודל גופן, מגע</string>
+    <string name="display_settings">תצוגה ומגע</string>
+    <string name="sound_dashboard_summary">עוצמת הקול ומשוב פיזי</string>
+    <string name="wallpaper_dashboard_summary">צבעים, סמלים בעיצוב עקבי, תצוגת האפליקציות</string>
+</resources>

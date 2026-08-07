@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistent, recente apps, standaard-apps</string>
+    <string name="display_dashboard_summary">Donker thema, lettergrootte, aanraken</string>
+    <string name="display_settings">Scherm en aanraken</string>
+    <string name="sound_dashboard_summary">Volume en haptische technologie</string>
+    <string name="wallpaper_dashboard_summary">Kleuren, thema-iconen, app-raster</string>
+</resources>

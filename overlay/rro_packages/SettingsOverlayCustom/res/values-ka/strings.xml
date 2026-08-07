@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">ასისტენტი, ბოლოდროინდელი აპები, ნაგულისხმევი აპები</string>
+    <string name="display_dashboard_summary">მუქი თემა, შრიფტის ზომა, შეხება</string>
+    <string name="display_settings">ეკრანი და სენსორი</string>
+    <string name="sound_dashboard_summary">ხმა და ჰაპტიკა</string>
+    <string name="wallpaper_dashboard_summary">ფერები, თემატური ხატულები, აპების ბადე</string>
+</resources>

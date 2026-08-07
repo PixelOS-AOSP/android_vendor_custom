@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Hjálpari, nýleg forrit, sjálfgefin forrit</string>
+    <string name="display_dashboard_summary">Dökkt þema, stærð leturgerðar, snerting</string>
+    <string name="display_settings">Birting og snerting</string>
+    <string name="sound_dashboard_summary">Hljóðstyrkur og snertisvörun</string>
+    <string name="wallpaper_dashboard_summary">Litir, þematákn, forritatafla</string>
+</resources>

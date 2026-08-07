@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, તાજેતરની ઍપ, ડિફૉલ્ટ ઍપ</string>
+    <string name="display_dashboard_summary">ડાર્ક થીમ, ફૉન્ટનું કદ, ટચ</string>
+    <string name="display_settings">ડિસ્પ્લે અને ટચ</string>
+    <string name="sound_dashboard_summary">વૉલ્યૂમ અને હેપ્ટિક</string>
+    <string name="wallpaper_dashboard_summary">રંગો, થીમવાળા આઇકન, ઍપ ગ્રિડ</string>
+</resources>

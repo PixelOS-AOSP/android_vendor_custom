@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, соңғы қолданбалар, әдепкі қолданбалар</string>
+    <string name="display_dashboard_summary">Қараңғы режим, қаріп өлшемі, сенсор</string>
+    <string name="display_settings">Дисплей және сенсор</string>
+    <string name="sound_dashboard_summary">Дыбыс деңгейі және хептика</string>
+    <string name="wallpaper_dashboard_summary">Түстер, тақырыпқа сай белгішелер, қолданбалар торы</string>
+</resources>

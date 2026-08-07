@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Laguntzailea, azkenaldiko aplikazioak, aplikazio lehenetsiak</string>
+    <string name="display_dashboard_summary">Gai iluna, letra-tamaina, ukipena</string>
+    <string name="display_settings">Pantaila eta ukipena</string>
+    <string name="sound_dashboard_summary">Bolumena eta teknologia haptikoa</string>
+    <string name="wallpaper_dashboard_summary">Koloreak, ikono gaidunak, aplikazioen sareta</string>
+</resources>

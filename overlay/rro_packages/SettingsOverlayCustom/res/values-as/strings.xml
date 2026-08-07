@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_and_notification_dashboard_summary">Assistant, শেহতীয়া এপ্‌সমূহ, ডিফ’ল্ট এপ্‌সমূহ</string>
+    <string name="display_dashboard_summary">গাঢ় ৰঙৰ থীম, ফণ্টৰ আকাৰ, স্পৰ্শ</string>
+    <string name="display_settings">ডিছপ্লে’ আৰু স্পৰ্শ</string>
+    <string name="sound_dashboard_summary">ভলিউম আৰু হেপ্‌টিক্স</string>
+    <string name="wallpaper_dashboard_summary">ৰং, থীমযুক্ত চিহ্ন, এপৰ গ্ৰিড</string>
+</resources>
