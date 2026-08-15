@@ -82,6 +82,13 @@ endif
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# Translations
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/crowdin/overlay
+
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/crowdin/overlay
+
 # Updater
 include vendor/custom/config/ota.mk
 
