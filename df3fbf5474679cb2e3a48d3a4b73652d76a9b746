@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6c56228_d855bfd3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2026-08-18T06:26:57Z",
+      "side": 1,
+      "message": "some devices in our roster may not support all the features mentioned in these strings",
+      "revId": "df3fbf5474679cb2e3a48d3a4b73652d76a9b746",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
