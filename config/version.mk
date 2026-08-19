@@ -1,9 +1,13 @@
-CUSTOM_BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
-
 CUSTOM_PLATFORM_VERSION := 17.0
-
-CUSTOM_VERSION := $(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)
 CUSTOM_VERSION_PROP := seventeen
+
+CUSTOM_BUILD_DATE := $(shell date -u +%Y%m%d)
+CUSTOM_VERSION := $(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)
+
+ifeq ($(IS_CI), true)
+CUSTOM_BUILD_DATE_TIME := $(shell date -u %H%M)
+CUSTOM_VERSION := $(CUSTOM_VERSION)-$(CUSTOM_BUILD_DATE_TIME)
+endif
 
 # PixelOS Platform Version
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -13,7 +17,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     net.pixelos.version=$(CUSTOM_VERSION_PROP)
 
 # Updater
-ifeq ($(IS_OFFICIAL),true)
+ifeq ($(IS_CI),true)
     PRODUCT_PRODUCT_PROPERTIES += \
         net.pixelos.build_type=ci
 endif

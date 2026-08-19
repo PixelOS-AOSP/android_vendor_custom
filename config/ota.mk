@@ -1,5 +1,5 @@
 # Updater
-ifeq ($(IS_OFFICIAL),true)
+ifeq ($(IS_CI),true)
 PRODUCT_PACKAGES += \
     Updater
 
