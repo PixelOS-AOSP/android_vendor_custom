@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d294572_ca797aa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000151
+      },
+      "writtenOn": "2026-08-29T13:22:04Z",
+      "side": 1,
+      "message": "# unofficial\nziyi-17.0\n\n# official\nziyi-17.0-20260829-xxxx",
+      "revId": "b764609b7056d52b6920f12102f2d73adc74296c",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
