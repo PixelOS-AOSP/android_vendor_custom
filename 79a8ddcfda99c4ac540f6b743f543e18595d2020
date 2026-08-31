@@ -34,6 +34,24 @@
       "parentUuid": "6e1fecd6_9ab16f95",
       "revId": "79a8ddcfda99c4ac540f6b743f543e18595d2020",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d75817bd_b105ddcf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2026-08-31T16:23:27Z",
+      "side": 1,
+      "message": "I didn\u0027t know about that, thanks.",
+      "parentUuid": "ffcdb3d3_26884cb8",
+      "revId": "79a8ddcfda99c4ac540f6b743f543e18595d2020",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
