@@ -16,6 +16,24 @@
       "message": "Missing space between ifeq and \"(\"",
       "revId": "cbf3e5df4f33c06c3053601ef1dd92c04536bbc6",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "622df256_bfa9a2f6",
+        "filename": "config/version.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-08-31T16:44:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac8a59d2_75cdd16e",
+      "revId": "cbf3e5df4f33c06c3053601ef1dd92c04536bbc6",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
