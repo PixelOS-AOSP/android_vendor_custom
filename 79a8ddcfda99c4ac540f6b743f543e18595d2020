@@ -16,6 +16,24 @@
       "message": "What about keeping \"%Y%m%d\" only for unofficial builds. I personally found it better. Thanks to that, I was able to debug an issue that started happening after some specific build on a specific day.",
       "revId": "79a8ddcfda99c4ac540f6b743f543e18595d2020",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffcdb3d3_26884cb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-08-31T16:21:08Z",
+      "side": 1,
+      "message": "You can just pass the required env variables if you want to.",
+      "parentUuid": "6e1fecd6_9ab16f95",
+      "revId": "79a8ddcfda99c4ac540f6b743f543e18595d2020",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
