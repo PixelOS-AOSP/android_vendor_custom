@@ -19,4 +19,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether or not we should show the option to show battery percentage -->
     <bool name="config_battery_percentage_setting_available">true</bool>
+
+    <!-- Last-known-good certified profile for first and offline boots. The security
+         patch is supplied at runtime from the active Lineage release configuration. -->
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>MANUFACTURER:Google</item>
+        <item>MODEL:Pixel 10 Pro XL</item>
+        <item>FINGERPRINT:google/mustang/mustang:17/CP2A.260605.012/15430684:user/release-keys</item>
+        <item>BRAND:google</item>
+        <item>PRODUCT:mustang</item>
+        <item>DEVICE:mustang</item>
+        <item>HARDWARE:mustang</item>
+        <item>VERSION.RELEASE:17</item>
+        <item>ID:CP2A.260605.012</item>
+        <item>VERSION.INCREMENTAL:15430684</item>
+        <item>TYPE:user</item>
+        <item>TAGS:release-keys</item>
+        <item>VERSION.DEVICE_INITIAL_SDK_INT:32</item>
+    </string-array>
 </resources>
