@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d8026c2_ee637792",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000090
+      },
+      "writtenOn": "2026-10-04T06:04:32Z",
+      "side": 1,
+      "message": "Unofficial builders won\u0027t know they have to set export IS_OFFICIAL\u003d\"true\" just to build the PixelOS Updater app, even if they don\u0027t want to provide OTA updates and just want the users to have the option to local update instead of side-loading in recovery, also that flag shouldn\u0027t be set on unofficial builds anyway, since they aren\u0027t official 🤷",
+      "revId": "c49aa9b15a0945dafe02b6e5035d49c3fb6197be",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
