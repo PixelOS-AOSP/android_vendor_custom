@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c679e491_d4bc79dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2026-10-08T06:43:44Z",
+      "side": 1,
+      "message": "@mail@inferno0230.in drop a V if tested",
+      "revId": "e389a1e2caec0cd1e8dc5a5459b88cc2bad38897",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
