@@ -16,6 +16,24 @@
       "message": "@mail@inferno0230.in drop a V if tested",
       "revId": "e389a1e2caec0cd1e8dc5a5459b88cc2bad38897",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ed940a5_20c2a187",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-10-08T06:46:24Z",
+      "side": 1,
+      "message": "none of my devices support more than one resolution",
+      "parentUuid": "c679e491_d4bc79dc",
+      "revId": "e389a1e2caec0cd1e8dc5a5459b88cc2bad38897",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
